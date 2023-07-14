@@ -3,12 +3,10 @@ import Link from "next/link";
 import {
   AiFillMinusCircle,
   AiFillPlusCircle,
-  AiOutlineCloseCircle,
-  AiOutlineShoppingCart,
 } from "react-icons/ai";
 import { BsFillBagCheckFill } from "react-icons/bs";
 
-const Checkout = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
+const Checkout = ({ cart, addToCart, removeFromCart, subTotal }) => {
   return (
     <div className="container px-12 sm:m-auto">
       <h1 className="font-bold text-3xl my-8 text-center">Checkout</h1>
@@ -23,7 +21,7 @@ const Checkout = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
               type="name"
               id="name"
               name="name"
-              className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
         </div>
@@ -36,7 +34,7 @@ const Checkout = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
               type="email"
               id="email"
               name="email"
-              className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
         </div>
@@ -51,7 +49,7 @@ const Checkout = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
             id="address"
             cols="30"
             rows="2"
-            className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
           ></textarea>
         </div>
       </div>
@@ -65,7 +63,7 @@ const Checkout = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
               type="phone"
               id="phone"
               name="phone"
-              className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
         </div>
@@ -78,7 +76,7 @@ const Checkout = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
               type="text"
               id="city"
               name="city"
-              className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
         </div>
@@ -93,7 +91,7 @@ const Checkout = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
               type="text"
               id="state"
               name="state"
-              className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
         </div>
@@ -109,7 +107,7 @@ const Checkout = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
               type="text"
               id="pincode"
               name="pincode"
-              className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
         </div>
